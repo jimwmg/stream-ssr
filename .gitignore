@@ -1,0 +1,27 @@
+# normal
+**/.DS_Store
+node_modules
+
+# hidden files
+.*
+!*.yml
+!.editconfig
+!.gitignore
+!.npmignore
+!/test/fixtures/homedir/.justrc
+
+# IDE
+
+.idea
+.vscode
+
+# test
+coverage
+test/.*
+
+# log
+*.log
+*.log.*
+
+.justconf
+.runtime
